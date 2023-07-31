@@ -12,14 +12,12 @@ export const routes = createBrowserRouter(
                 <Route path="login" element={<Login />} />
                 <Route path="signup" element={<Signup />} />
             </Route>
-
             <Route path="/dashboard" element={<Dashlayout />}>
                 <Route path="messages" element={<MsgsLayout />}>
                     <Route path=":msgID" element={<Chat />} />
                 </Route>
                 <Route path="settings" element={<Settings />} />
             </Route>
-
         </Route>
     )
 )

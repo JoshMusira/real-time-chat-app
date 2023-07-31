@@ -1,10 +1,14 @@
 import { NavLink } from "react-router-dom"
+interface LinkProps {
+  to: string;
+  icon: React.ReactNode;
+}
 
-const Link = ({ to, icon }: { to: string, icon: string }) => {
+const Link = ({ to, icon }: LinkProps) => {
   return (
-    <NavLink className="flex gap-4 p-3 rounded-[13px]" to={to.toLowerCase()}>
-      <span>{icon}</span>
-      <p>{to}</p>
+    <NavLink className="flex items-center gap-3 p-3 rounded-[13px]" to={to.toLowerCase()}>
+      <span className="text-gray-500 text-2xl">{icon}</span>
+      <p className="text-lg">{to}</p>
     </NavLink>
   )
 }
