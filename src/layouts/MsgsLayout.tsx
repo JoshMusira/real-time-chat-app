@@ -1,6 +1,9 @@
+import { Outlet } from "react-router-dom"
+import MsgList from "../components/messages/MsgList"
+
 const MsgsLayout = () => {
   return (
-    <div>MsgsLayout</div>
+    <div><MsgList /><Outlet /></div>
   )
 }
 

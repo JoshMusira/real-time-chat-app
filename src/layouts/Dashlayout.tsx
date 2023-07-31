@@ -1,6 +1,12 @@
+import { Outlet } from "react-router-dom"
+import SideNav from "../components/SideNav/SideNav"
+
 const Dashlayout = () => {
   return (
-    <div>Dashlayout</div>
+    <div>
+      <SideNav />
+      <Outlet />
+    </div>
   )
 }
 
