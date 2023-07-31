@@ -5,6 +5,11 @@ import Chat from "../components/chat/Chat";
 import Settings from "../components/Settings";
 import Login from "../pages/auth/Login";
 import Signup from "../pages/auth/Signup";
+import Dashboard from "../components/Dashboard";
+import Call from "../components/Call";
+import Analytics from "../components/Analytics";
+import Files from "../components/Files";
+import Community from "../components/Community";
 export const routes = createBrowserRouter(
     createRoutesFromElements(
         <Route >
@@ -16,6 +21,11 @@ export const routes = createBrowserRouter(
                 <Route path="messages" element={<MsgsLayout />}>
                     <Route path=":msgID" element={<Chat />} />
                 </Route>
+                <Route path="dashboard" element={<Dashboard />} />
+                <Route path="call" element={<Call />} />
+                <Route path="analytics" element={<Analytics />} />
+                <Route path="files" element={<Files />} />
+                <Route path="community" element={<Community />} />
                 <Route path="settings" element={<Settings />} />
             </Route>
         </Route>
