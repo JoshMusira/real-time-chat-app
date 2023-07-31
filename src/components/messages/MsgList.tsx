@@ -1,6 +1,14 @@
+import Msg from "./Msg"
+import MsgListHeader from "./MsgListHeader"
+
 const MsgList = () => {
   return (
-    <div>MsgList</div>
+    <div className="">
+      <MsgListHeader />
+      <Msg />
+      <Msg />
+      <Msg />
+    </div>
   )
 }
 

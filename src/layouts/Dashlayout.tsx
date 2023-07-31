@@ -3,7 +3,7 @@ import SideNav from "../components/SideNav/SideNav"
 
 const Dashlayout = () => {
   return (
-    <div>
+    <div className="flex gap-4">
       <SideNav />
       <Outlet />
     </div>
