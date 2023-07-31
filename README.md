@@ -1,1 +1,2 @@
-![image](https://github.com/JoshMusira/real-time-app/assets/86522089/b14ca4dc-eb72-41c4-b1e7-22520620f97c)
+![image](https://github.com/JoshMusira/real-time-chat-app/assets/86522089/36c1df8b-ced0-4485-850e-93964a4276e0)
+
