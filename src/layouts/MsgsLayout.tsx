@@ -3,7 +3,7 @@ import MsgList from "../components/messages/MsgList"
 
 const MsgsLayout = () => {
   return (
-    <div className="flex gap-4"><MsgList /><Outlet /></div>
+    <div className="flex  gap-6  w-[80%]"><MsgList /><Outlet /></div>
   )
 }
 

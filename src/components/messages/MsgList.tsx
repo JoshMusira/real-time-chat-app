@@ -3,7 +3,7 @@ import MsgListHeader from "./MsgListHeader"
 
 const MsgList = () => {
   return (
-    <div className=" ">
+    <div className='w-[40%]'>
       <MsgListHeader />
       <Msg />
       <Msg />
