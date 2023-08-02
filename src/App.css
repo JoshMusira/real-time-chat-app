@@ -2,3 +2,6 @@
   background-color: #0147ff;
   color: white;
 }
+.active span  *{
+  color: white;
+}
